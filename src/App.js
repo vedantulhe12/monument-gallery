@@ -1,23 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+import MonumentsGallery from "./components/MonumentsGallery";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="p-6 bg-gray-100 min-h-screen">
+      <h1 className="text-3xl font-bold text-center mb-4">Monuments Gallery</h1>
+      <MonumentsGallery />
     </div>
   );
 }
